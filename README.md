@@ -7,21 +7,21 @@ The pipeline ensures that the trained model is robust, reliable, and generalizab
 
 ⚙️ **Workflow**
 
-Data Loading – Import dataset and prepare features (X) and target (y).
+**Data Loading**– Import dataset and prepare features (X) and target (y).
 
-Data Preprocessing – Handle categorical and numerical features using encoding and scaling.
+**Data Preprocessing** – Handle categorical and numerical features using encoding and scaling.
 
-Feature Engineering – Extract time-based features like Year, Month, Day, Hours, and Minutes.
+**Feature Engineering** – Extract time-based features like Year, Month, Day, Hours, and Minutes.
 
-Scaling & Encoding –
+**Scaling & Encoding** –
 
 OrdinalEncoder for categorical variables (City, Customer type, Gender, Product line, Season)
 
 StandardScaler for numerical variables (Unit price, Quantity, Tax 5%, Total, COGS, Year, Month, Day, Hours, Minutes)
 
-KFold Cross-Validation – Perform 5-fold CV to evaluate model consistency.
+**KFold Cross-Validation** – Perform 5-fold CV to evaluate model consistency.
 
-Training & Hyperparameter Tuning –
+**Training & Hyperparameter Tuning** –
 
 Base model: LinearRegression
 
@@ -29,9 +29,9 @@ Hyperparameter optimization using RandomizedSearchCV
 
 Prediction & Testing – Test on unseen data to check model generalization.
 
-Visualization – Plot predictions vs actual values for better interpretation.
+**Visualization** – Plot predictions vs actual values for better interpretation.
 
-📊 Evaluation Metrics
+📊 **Evaluation Metrics**
 
 During Cross-Validation and final testing, the following metrics are calculated:
 
@@ -43,7 +43,7 @@ RMSE (Root Mean Squared Error)
 
 R² (Coefficient of Determination)
 
-Example output (your results may differ):
+**Example output**:
 
 Cross-Validation Results (Regression):
 MAE: 4.231 ± 0.482
@@ -72,7 +72,7 @@ Example best parameters found:
   "positive": false
 }
 
-📈 Visualization
+📈**Visualization**
 
 The scatter plot below compares predicted vs actual values.
 
@@ -80,7 +80,10 @@ Blue points → Predictions
 
 Red dashed line → Ideal (perfect prediction line)
 
+
 This helps in visually inspecting model performance.
+<img width="729" height="573" alt="image" src="https://github.com/user-attachments/assets/bd0cad16-e90c-45c3-8e31-10deb8fae95f" />
+
 
 🛠 Tech Stack
 
