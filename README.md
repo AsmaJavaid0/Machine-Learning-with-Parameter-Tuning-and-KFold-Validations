@@ -1,11 +1,11 @@
-🧠 ##Machine Learning Regression Pipeline with Cross-Validation & Hyperparameter Tuning
+🧠 **Machine Learning Regression Pipeline with Cross-Validation & Hyperparameter Tuning**
 📌 Project Overview
 
 This project demonstrates a complete end-to-end machine learning pipeline for solving a regression problem. It covers everything from data preprocessing, feature engineering, scaling & encoding, cross-validation, hyperparameter tuning, and model evaluation to visualization of predictions vs actual values.
 
 The pipeline ensures that the trained model is robust, reliable, and generalizable by using advanced evaluation techniques.
 
-⚙️ ## Workflow
+⚙️ **Workflow**
 
 Data Loading – Import dataset and prepare features (X) and target (y).
 
